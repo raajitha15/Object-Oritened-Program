@@ -1,0 +1,31 @@
+class Test6 
+{
+	public static void browser()
+	{
+		System.out.println("enter the username and password");
+	}
+	public static void webserver()
+	{
+		System.out.println("check whether the username and password is correct or not if yes it follows appserver");
+	}
+	public static void appserver()
+	{
+		System.out.println("collect the all the data freom the databases");
+	}
+	public static void data()
+	{
+		System.out.println("stores all the data");
+	}
+}
+class Chatserver
+{
+
+	public static void main(String[] args) 
+	{
+		Test6 obj=new Test6();
+		obj.browser();
+			obj.webserver();
+			obj.appserver();
+			obj.data();
+	}
+}
