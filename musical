@@ -1,0 +1,36 @@
+class Test2 
+{
+	public static void desgin()
+	{
+		System.out.println("box is designed with full of mirrors ");
+	}
+	public static void box()
+	{
+		System.out.println("box is in the shape of a rectangular ");
+	}
+	public static void doll()
+	{
+		System.out.println("in that box a small doll is present in which that doll dances ");
+	}
+	public static void motor()
+	{
+		System.out.println("motor is present in the box at deep inside when it is opened music shoild play ");
+	}
+	public static void music()
+	{
+		System.out.println("music is played when the box is opened and even the doll also dances ");
+	}
+}
+class Judebox
+{
+
+	public static void main(String[] args) 
+	{
+		Test2 obj=new Test2();
+		obj.desgin();
+		obj.box();
+		obj.doll();
+		obj.motor();
+		obj.music();
+	}
+}
