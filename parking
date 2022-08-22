@@ -1,0 +1,32 @@
+class Test3 
+{
+	public static void land()
+	{
+		System.out.println("land should buy for parking with huge acres ");
+	}
+	public static void design()
+	{
+		System.out.println("design the land according to the parking lot signs ");
+	}
+	public static void color()
+	{
+		System.out.println("colour the parking lot of signs with yellow and danger signs in red colour");
+	}
+	public static void watchmen()
+	{
+		System.out.println("hire a person so that when cars come to parking there will be no trafficing ");
+	}
+}
+class Parkinglot
+{
+
+	public static void main(String[] args) 
+	{
+		Test3 obj=new Test3();
+		obj.land();
+		obj.design();
+		obj.color();
+		obj.watchmen();
+		
+	}
+}
