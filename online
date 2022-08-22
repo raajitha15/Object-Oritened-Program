@@ -1,0 +1,37 @@
+class Test4 
+{
+	public static void app()
+	{
+		System.out.println("first we have to create an app for book readers ");
+	}
+	public static void library()
+	{
+		System.out.println("library should be present so that we can search for the books we want");
+	}
+	public static void cart()
+	{
+		System.out.println("drop your selected books in the cart");
+	}
+	public static void premium()
+	{
+		System.out.println("take a membership card so that there is no need to buy the books you can take it by free");
+	}
+	public static void read()
+	{
+		System.out.println("now you can read the book on online");
+	}
+}
+class OnlineReader
+{
+
+	public static void main(String[] args) 
+	{
+		Test4 obj=new Test4();
+		obj.app();
+		obj.library();
+		obj.cart();
+		obj.premium();
+		obj.read();
+		
+	}
+}
