@@ -1,0 +1,31 @@
+class Test5 
+{
+	public static void piece()
+	{
+		System.out.println("collect all the pieces of the puzzle");
+	}
+	public static void board()
+	{
+		System.out.println("place all the pieces on the board");
+	}
+	public static void set()
+	{
+		System.out.println("set the pieces on the board according to the design of the piece");
+	}
+	public static void puzzle()
+	{
+		System.out.println("now play the puzzle");
+	}
+}
+class Jigsaw
+{
+
+	public static void main(String[] args) 
+	{
+		Test5 obj=new Test5();
+		obj.piece();
+		obj.board();
+		obj.set();
+		obj.puzzle();
+	}
+}
