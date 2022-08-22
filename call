@@ -1,0 +1,33 @@
+class Test 
+{
+	 
+	
+		public static void respondent()
+		{
+			
+		  System.out.println("if respondent does not respond please call the manager ");
+		}
+
+		public static void manager()
+		{
+			System.out.println("if manager does not respond please call the director ");
+		}
+		public static void director()
+		{
+			System.out.println("how may i help you sir/mam ");
+		}
+}
+class CallCentre
+{
+
+   public static void main(String[]args)
+	{
+	   Test obj=new Test();
+	   obj.respondent();
+	   obj.manager();
+	   obj.director();
+
+	
+			
+	}
+}
